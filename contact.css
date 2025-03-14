@@ -1,0 +1,26 @@
+.contact {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.cta-btn {
+    background: linear-gradient(-45deg, #665dcd 0%, #5fa4e6 45%, #d2ab67 100%);
+    padding: 1em;
+}
+
+.contact .sub-heading {
+    padding-bottom: 3rem;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: none;
+    transform: translateX(0%);
+}

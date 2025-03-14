@@ -1,0 +1,181 @@
+.why {
+    padding: 2rem 0;
+}
+
+.middle-left img {
+    display: none;
+    position: absolute;
+}
+
+.bg-img  {
+    display: none;
+    top: 565%;
+    left: -15%;
+    z-index: -1;
+}
+
+.side-img-1 {
+    display: none;
+    top: 595%;
+    left: 35%;
+}
+
+.side-img-2 {
+    display: none;
+    top: 600%;
+    left: 48%;
+}
+
+.side-img-3 {
+    display: none;
+    top: 605%;
+    left: 33%;
+}
+
+.card {
+    padding: 3.25rem;
+    background-color: #41557236;
+    border-radius: 8px;
+}
+
+.center {
+    margin-top: 20rem;
+}
+
+.end {
+    padding: 7rem 0;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.context {
+    padding: 2rem 0;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+
+.dots .dot {
+    width: 8px;
+    height: 8px;
+}
+
+.g2-bg {
+    display: none;
+    width: 150%;
+    left: 10%;
+    position: absolute;
+    z-index: -1;
+}
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: none;
+    transform: translateX(0%);
+}
+
+@media screen and (min-width: 820px) {
+    
+    .why {
+        padding: 15rem 0;
+    }
+
+    .middle-left img {
+        display: block;
+    }
+
+    .bg-img  {
+        display: block;
+        top: 375%;
+        left: -25%;
+        z-index: -1;
+    }
+
+    .side-img-1 {
+        display: block;
+    top: 410%;
+    left: 5%;
+    }
+
+    .side-img-2 {
+        display: block;
+    top: 415%;
+    left: 13%;
+    }
+
+    .side-img-3 {
+        display: block;
+    top: 425%;
+    left: 4%;
+    }
+
+    .card:nth-child(2) {
+        margin-top: 1.5rem;
+    }
+
+    .row {
+        gap: 1.5rem;
+    }
+    .texts .context {
+        width: 40%;
+        margin: 0 auto;
+    }
+    .last .row {
+        gap: 15rem;
+    }
+    .g2-bg {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    
+    .center {
+        margin-top: 10rem;
+    }
+    .middle-left img {
+        display: block;
+    }
+    .bg-img  {
+        display: block;
+        top: 405%;
+        left: -25%;
+        z-index: -1;
+    }
+
+    .side-img-1 {
+        display: block;
+    top: 440%;
+    left: 5%;
+    }
+
+    .side-img-2 {
+        display: block;
+    top: 445%;
+    left: 13%;
+    }
+
+    .side-img-3 {
+        display: block;
+    top: 455%;
+    left: 4%;
+    }
+    .g2-bg {
+        display: block;
+    }
+}
